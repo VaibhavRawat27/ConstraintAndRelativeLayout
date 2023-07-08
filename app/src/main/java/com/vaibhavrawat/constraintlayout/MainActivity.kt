@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         btnRelativeLayout = findViewById(R.id.btnRelativeLayout)
         btnRelativeLayout?.setOnClickListener {
-            var intent = Intent(this, RelativeLayout::class.java)
+            var intent = Intent(this, ConstraintLayoutView::class.java)
             startActivity(intent)
         }
     }

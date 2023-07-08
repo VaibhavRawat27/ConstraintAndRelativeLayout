@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ConstraintLayout</string>
+    <string name="DummyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt a sapien non condimentum. Phasellus efficitur interdum nisi vestibulum vulputate. Etiam ut elementum sem, vel imperdiet nibh. Maecenas accumsan quam ac mollis placerat. In faucibus justo et lacinia finibus. Donec pulvinar laoreet ante id lobortis. Sed vel pharetra enim. Morbi ultricies ex ac dui posuere sagittis. Duis sit amet ultricies ipsum, at viverra neque. Vivamus vitae risus augue. Integer justo magna, rutrum et tempus nec, volutpat vel nisi.\n\nQuisque sed bibendum justo, dignissim viverra diam. Nunc dapibus rutrum magna, a tempus velit maximus vitae. Vestibulum placerat lectus quis purus gravida sodales. Vestibulum ac eleifend leo. Quisque vestibulum nibh ut nunc dignissim, at aliquam sem euismod. Maecenas vel gravida mi. Pellentesque eleifend odio nec orci accumsan, sit amet luctus leo imperdiet. Integer molestie gravida felis et efficitur. Duis nec nulla ut sapien dignissim porttitor id id turpis. Cras vestibulum felis quis.</string>
+
 </resources>
