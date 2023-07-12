@@ -149,6 +149,22 @@
         app:layout_constraintGuide_percent=".90"
         />
 
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/guideline_h_94"
+        app:layout_constraintGuide_percent=".94"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/guideline_h_98"
+        app:layout_constraintGuide_percent=".98"
+        />
+
     <ImageView
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -264,7 +280,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Constraint Layout"
+        android:text="Above is Constraint Layout"
         android:textSize="20sp"
         android:textStyle="bold"
         android:gravity="center"
@@ -284,6 +300,18 @@
         app:layout_constraintTop_toBottomOf="@+id/guideline_h_90"
         app:layout_constraintEnd_toStartOf="@+id/guideline_v_98"
         android:id="@+id/btnRelativeLayout"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relative View"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/guideline_v_02"
+        app:layout_constraintBottom_toTopOf="@id/guideline_h_98"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_h_94"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_v_98"
+        android:id="@+id/btnRelativeLayoutSwitch"/>
 
 
 
